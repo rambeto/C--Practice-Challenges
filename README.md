@@ -1,259 +1,248 @@
-# CPP-Practice-Challenges
-A collection of C++ practice problems covering numbers, strings, patterns, and basic encryption techniques with explanations and solutions.
+# 🚀 C++ Practice Challenges
+
+A structured collection of C++ problems designed to strengthen problem-solving skills, focusing on numbers, strings, patterns, and arrays.
+
+---
+
+## 📊 Problems Table
 
 | #  | File Name | Description | Key Concept |
-|----|-----------|------------|-------------|
-| 01 | [01_Problem-MultiplicationTable.cpp](./01_Problem-MultiplicationTable.cpp) | Generate multiplication tables for given numbers | Loops, Nested Loops |
-| 02 | [02_Problem-PrintAllPrimeNumber.cpp](./02_Problem-PrintAllPrimeNumber.cpp) | Print all prime numbers within a range | Prime Checking, Loops |
-| 03 | [03_Problem-IsPerfectNumber.cpp](./03_Problem-IsPerfectNumber.cpp) | Check if a number is a perfect number | Divisors Sum, Conditional Logic |
-| 04 | [04_Problem-PrintPerfectNumberfrom1toN.cpp](./04_Problem-PrintPerfectNumberfrom1toN.cpp) | Print all perfect numbers from 1 to N | Loops, Perfect Number Concept |
-| 05 | [05_Problem-ReadNumberAndPrintItInaReversedOrder.cpp](./05_Problem-ReadNumberAndPrintItInaReversedOrder.cpp) | Reverse digits of a given number | Loops, Modulus, Division |
-| 06 | [06_Problem-SumOfDigits.cpp](./06_Problem-SumOfDigits.cpp) | Calculate the sum of digits of a number | Arithmetic Operations, Loops |
-| 07 | [07_Problem-ReversedNumber.cpp](./07_Problem-ReversedNumber.cpp) | Reverse a number | Loops, Modulus, Division |
-| 08 | [08_Problem-DigitFrequancy.cpp](./08_Problem-DigitFrequancy.cpp) | Count frequency of digits in a number | Arrays, Counting |
-| 09 | [09_Problem-DigitFrequancyAllNumbersinNumber.cpp](./09_Problem-DigitFrequancyAllNumbersinNumber.cpp) | Count frequency of all digits in a number | Arrays, Counting |
-| 10 | [10_Problem-PrintDigitsInOrder.cpp](./10_Problem-PrintDigitsInOrder.cpp) | Print digits of a number in order | Loops, Modulus, Division |
-| 11 | [11_Problem-IsPalindromeNumber.cpp](./11_Problem-IsPalindromeNumber.cpp) | Check if a number is a palindrome | Loops, Conditional Logic |
-| 12 | [12_Problem-InvertedPatternNumber.cpp](./12_Problem-InvertedPatternNumber.cpp) | Print inverted number patterns | Nested Loops, Patterns |
-| 13 | [13_Problem-PatternNumber.cpp](./13_Problem-PatternNumber.cpp) | Print number patterns | Nested Loops, Patterns |
-| 14 | [14_Problem-PrintInvertedLetterPattern.cpp](./14_Problem-PrintInvertedLetterPattern.cpp) | Print inverted letter patterns | Nested Loops, Characters |
-| 15 | [15_Problem-PatternLetter.cpp](./15_Problem-PatternLetter.cpp) | Print letter patterns | Nested Loops, Characters |
-| 16 | [16_Problem-AllWordsFromAAAtoZZZ.cpp](./16_Problem-AllWordsFromAAAtoZZZ.cpp) | Generate all words from AAA to ZZZ | Nested Loops, Strings |
-| 17 | [17_Problem-GuessA3LetterPassword.cpp](./17_Problem-GuessA3LetterPassword.cpp) | Guess a 3-letter password | Loops, Conditional Logic |
-| 18 | [18_Problem18-EncryptDecryptText.cpp](./18_Problem-EncryptDecryptText.cpp) | Encrypt and decrypt text | Strings, Character Manipulation |
-| 19 | [19_Problem19-RandomNumber.cpp](./19_Problem-RandomNumber.cpp) | Generate random numbers | Random Number Generation |
-| 20 | [20_Problem-PrintRandomLettersDigitsSpecialCharacters.cpp](./20_Problem-PrintRandomLettersDigitsSpecialCharacters.cpp) | Print random letters, digits, and special characters in order | Randomization, Loops, Strings |
-| 21 | [21_Problem21-GenerateManyKeys.cpp](./21_Problem21-GenerateManyKeys.cpp) | Generate multiple formatted random keys | Randomization, Strings |
-| 22 | [22_Problem22-ReadAndPrintCountElement.cpp](./22_Problem22-ReadAndPrintCountElement.cpp) | Count occurrences of a specific number in an array | Counting, Arrays |
-| 23 | [23_Problem23-FillArrayWithRandomNumbers.cpp](./23_Problem23-FillArrayWithRandomNumbers.cpp) | Fill an array with random numbers | Random Numbers, Arrays |
-| 24 | [24_Problem24-MaxNumberInArray.cpp](./24_Problem24-MaxNumberInArray.cpp) | Find the maximum number in an array | Searching, Arrays |
-| 25 | [25_Problem25-MinNumberInArray.cpp](./25_Problem25-MinNumberInArray.cpp) | Find the minimum number in an array | Searching, Arrays |
-| 26 | [26_Problem26-SumArray.cpp](./26_Problem26-SumArray.cpp) | Calculate the sum of all elements in an array | Accumulation, Arrays |
-| 27 | [27_Problem27-AverageArray.cpp](./27_Problem27-AverageArray.cpp) | Calculate the average of array elements | Math Operations |
-| 28 | [28_Problem28-CopyArray.cpp](./28_Problem28-CopyArray.cpp) | Copy elements from one array to another | Arrays, Copying |
-| 29 | [29_Problem29-PrintPrimeNumbersInArray.cpp](./29_Problem29-PrintPrimeNumbersInArray.cpp) | Print all prime numbers in an array | Prime Numbers, Loops |
-| 30 | [30_Problem30-SumTwoArrays.cpp](./30_Problem30-SumTwoArrays.cpp) | Sum two arrays element by element | Arrays, Element-wise Operations |
----
-
-## Featured Solutions
+|----|----------|------------|-------------|
+| 01 | [01_Problem1-MultiplicationTable.cpp](./01_Problem1-MultiplicationTable.cpp) | Generate multiplication tables for user input numbers | Loops, Nested Loops |
+| 02 | [02_Problem2-PrintAllPrimeNumber.cpp](./02_Problem2-PrintAllPrimeNumber.cpp) | Print all prime numbers within a range | Prime Numbers, Loops |
+| 03 | [03_Problem3-IsPerfectNumber.cpp](./03_Problem3-IsPerfectNumber.cpp) | Check if a number is perfect | Arithmetic, Conditions |
+| 04 | [04_Problem4-PrintPerfectNumberfrom1toN.cpp](./04_Problem4-PrintPerfectNumberfrom1toN.cpp) | Print all perfect numbers from 1 to N | Loops, Functions |
+| 05 | [05_Problem5-ReadNumberAndPrintItInaReversedOrder.cpp](./05_Problem5-ReadNumberAndPrintItInaReversedOrder.cpp) | Reverse a number input by the user | Loops, Arithmetic |
+| 06 | [06_Problem6-SumOfDigits.cpp](./06_Problem6-SumOfDigits.cpp) | Calculate sum of digits | Loops, Arithmetic |
+| 07 | [07_Problem7-ReversedNumber.cpp](./07_Problem7-ReversedNumber.cpp) | Reverse a number | Loops, Modulus |
+| 08 | [08_Problem8-DigitFrequancy.cpp](./08_Problem8-DigitFrequancy.cpp) | Count digit frequency | Arrays, Counting |
+| 09 | [09_Problem9-DigitFrequancyAllNumbersinNumber.cpp](./09_Problem9-DigitFrequancyAllNumbersinNumber.cpp) | Count all digit frequencies | Arrays, Loops |
+| 10 | [10_Problem10-PrintDigitsInOrder.cpp](./10_Problem10-PrintDigitsInOrder.cpp) | Print digits in order | Arithmetic, Loops |
+| 11 | [11_Problem11-IsPalindromeNumber.cpp](./11_Problem11-IsPalindromeNumber.cpp) | Check palindrome number | Loops, Conditions |
+| 12 | [12_Problem12-InvertedPatternNumber.cpp](./12_Problem12-InvertedPatternNumber.cpp) | Print inverted number pattern | Nested Loops |
+| 13 | [13_Problem13-PatternNumber.cpp](./13_Problem13-PatternNumber.cpp) | Print number pattern | Nested Loops |
+| 14 | [14_Problem14-PrintInvertedLetterPattern.cpp](./14_Problem14-PrintInvertedLetterPattern.cpp) | Print inverted letter pattern | Characters, Loops |
+| 15 | [15_Problem15-PatternLetter.cpp](./15_Problem15-PatternLetter.cpp) | Print letter pattern | Characters, Loops |
+| 16 | [16_Problem16-AllWordsFromAAAtoZZZ.cpp](./16_Problem16-AllWordsFromAAAtoZZZ.cpp) | Generate words from AAA to ZZZ | Strings, Loops |
+| 17 | [17_Problem17-GuessA3LetterPassword.cpp](./17_Problem17-GuessA3LetterPassword.cpp) | Guess a 3-letter password | Conditions, Loops |
+| 18 | [18_Problem18-EncryptDecryptText.cpp](./18_Problem18-EncryptDecryptText.cpp) | Encrypt and decrypt text | Strings, Character Manipulation |
+| 19 | [19_Problem19-RandomNumber.cpp](./19_Problem19-RandomNumber.cpp) | Generate random numbers | Randomization |
+| 20 | [20_Problem20-PrintRandomLettersDigitsSpecialCharacters.cpp](./20_Problem20-PrintRandomLettersDigitsSpecialCharacters.cpp) | Print random characters | Randomization, Strings |
+| 21 | [21_Problem21-GenerateManyKeys.cpp](./21_Problem21-GenerateManyKeys.cpp) | Generate formatted random keys | Randomization, Strings |
+| 22 | [22_Problem22-ReadAndPrintCountElement.cpp](./22_Problem22-ReadAndPrintCountElement.cpp) | Count occurrences in array | Arrays, Counting |
+| 23 | [23_Problem23-FillArrayWithRandomNumbers.cpp](./23_Problem23-FillArrayWithRandomNumbers.cpp) | Fill array with random numbers | Arrays, Randomization |
+| 24 | [24_Problem24-MaxNumberInArray.cpp](./24_Problem24-MaxNumberInArray.cpp) | Find max value in array | Searching |
+| 25 | [25_Problem25-MinNumberInArray.cpp](./25_Problem25-MinNumberInArray.cpp) | Find min value in array | Searching |
+| 26 | [26_Problem26-SumArray.cpp](./26_Problem26-SumArray.cpp) | Calculate sum of array | Accumulation |
+| 27 | [27_Problem27-AverageArray.cpp](./27_Problem27-AverageArray.cpp) | Calculate average | Math, Arrays |
+| 28 | [28_Problem28-CopyArray.cpp](./28_Problem28-CopyArray.cpp) | Copy array elements | Arrays |
+| 29 | [29_Problem29-PrintPrimeNumbersInArray.cpp](./29_Problem29-PrintPrimeNumbersInArray.cpp) | Print primes in array | Prime Numbers |
+| 30 | [30_Problem30-SumTwoArrays.cpp](./30_Problem30-SumTwoArrays.cpp) | Sum two arrays | Arrays |
 
 ### 01_Problem1-MultiplicationTable.cpp
-- **Goal:** Generate multiplication tables for user input numbers.
-- **Logic:** Use nested loops to iterate over numbers and multiply.
-- **Key Skill:** Loops and Nested Loops.
+- **🎯 Goal:** Generate multiplication tables for user input numbers.
+- **🧠 Logic:** Use nested loops to iterate and multiply values.
+- **💡 Key Skill:** Loops and Nested Loops.
+
+---
 
 ### 02_Problem2-PrintAllPrimeNumber.cpp
-- **Goal:** Print all prime numbers within a range.
-- **Logic:** Check divisibility of each number by all smaller numbers.
-- **Key Skill:** Prime checking and Loop control.
+- **🎯 Goal:** Print all prime numbers within a range.
+- **🧠 Logic:** Check divisibility for each number.
+- **💡 Key Skill:** Prime Checking.
+
+---
 
 ### 03_Problem3-IsPerfectNumber.cpp
-- **Goal:** Determine if a number is perfect.
-- **Logic:** Sum all divisors and compare with the original number.
-- **Key Skill:** Arithmetic operations and Conditionals.
+- **🎯 Goal:** Check if a number is perfect.
+- **🧠 Logic:** Sum divisors and compare with the number.
+- **💡 Key Skill:** Arithmetic + Conditions.
+
+---
 
 ### 04_Problem4-PrintPerfectNumberfrom1toN.cpp
-- **Goal:** Print all perfect numbers from 1 to N.
-- **Logic:** Loop from 1 to N and check each for perfection.
-- **Key Skill:** Loops and Function modularization.
+- **🎯 Goal:** Print perfect numbers from 1 to N.
+- **🧠 Logic:** Loop and reuse perfect check.
+- **💡 Key Skill:** Functions + Loops.
+
+---
 
 ### 05_Problem5-ReadNumberAndPrintItInaReversedOrder.cpp
-- **Goal:** Reverse a number input by the user.
-- **Logic:** Extract digits using modulus and reconstruct in reverse.
-- **Key Skill:** Loops and Arithmetic manipulation.
+- **🎯 Goal:** Reverse a number.
+- **🧠 Logic:** Extract digits and rebuild reversed number.
+- **💡 Key Skill:** Modulus + Loops.
+
+---
 
 ### 06_Problem6-SumOfDigits.cpp
-- **Goal:** Calculate the sum of digits of a number.
-- **Logic:** Loop through digits using modulus and division, accumulate the sum.
-- **Key Skill:** Basic arithmetic and Loops.
+- **🎯 Goal:** Sum digits of a number.
+- **🧠 Logic:** Loop through digits and accumulate.
+- **💡 Key Skill:** Arithmetic + Loops.
+
+---
 
 ### 07_Problem7-ReversedNumber.cpp
-- **Goal:** Reverse a number.
-- **Logic:** Extract digits and reconstruct in reverse.
-- **Key Skill:** Loops and Modulus operations.
+- **🎯 Goal:** Reverse a number.
+- **🧠 Logic:** Same digit extraction logic.
+- **💡 Key Skill:** Reusability.
+
+---
 
 ### 08_Problem8-DigitFrequancy.cpp
-- **Goal:** Count frequency of each digit in a number.
-- **Logic:** Use an array to store counts of each digit.
-- **Key Skill:** Arrays and Counting.
+- **🎯 Goal:** Count digit frequency.
+- **🧠 Logic:** Store counts in array.
+- **💡 Key Skill:** Arrays.
+
+---
 
 ### 09_Problem9-DigitFrequancyAllNumbersinNumber.cpp
-- **Goal:** Count frequency of all digits in a number.
-- **Logic:** Iterate through digits and increment counters in array.
-- **Key Skill:** Arrays and Loops.
+- **🎯 Goal:** Count all digits frequency.
+- **🧠 Logic:** Iterate and update counters.
+- **💡 Key Skill:** Arrays + Loops.
+
+---
 
 ### 10_Problem10-PrintDigitsInOrder.cpp
-- **Goal:** Print digits of a number in order.
-- **Logic:** Use division and modulus to extract and print digits.
-- **Key Skill:** Arithmetic manipulation and Loops.
+- **🎯 Goal:** Print digits in order.
+- **🧠 Logic:** Extract and store then print.
+- **💡 Key Skill:** Data handling.
+
+---
 
 ### 11_Problem11-IsPalindromeNumber.cpp
-- **Goal:** Check if a number is a palindrome.
-- **Logic:** Reverse the number and compare with original.
-- **Key Skill:** Loops and Conditional logic.
+- **🎯 Goal:** Check palindrome.
+- **🧠 Logic:** Reverse and compare.
+- **💡 Key Skill:** Logic building.
+
+---
 
 ### 12_Problem12-InvertedPatternNumber.cpp
-- **Goal:** Print inverted number patterns.
-- **Logic:** Use nested loops with decreasing counters.
-- **Key Skill:** Nested Loops and Patterns.
+- **🎯 Goal:** Print inverted pattern.
+- **🧠 Logic:** Nested loops decreasing.
+- **💡 Key Skill:** Patterns.
+
+---
 
 ### 13_Problem13-PatternNumber.cpp
-- **Goal:** Print structured number patterns.
-- **Logic:** Use nested loops to construct patterns line by line.
-- **Key Skill:** Loops and Pattern logic.
+- **🎯 Goal:** Print number pattern.
+- **🧠 Logic:** Structured loops.
+- **💡 Key Skill:** Pattern design.
+
+---
 
 ### 14_Problem14-PrintInvertedLetterPattern.cpp
-- **Goal:** Print inverted letter patterns.
-- **Logic:** Nested loops using character arithmetic.
-- **Key Skill:** Characters and Loops.
+- **🎯 Goal:** Print inverted letters.
+- **🧠 Logic:** Character loops.
+- **💡 Key Skill:** Characters.
+
+---
 
 ### 15_Problem15-PatternLetter.cpp
-- **Goal:** Print structured letter patterns.
-- **Logic:** Use nested loops with character increment.
-- **Key Skill:** Loops and Character manipulation.
+- **🎯 Goal:** Print letter pattern.
+- **🧠 Logic:** Increment characters.
+- **💡 Key Skill:** ASCII.
+
+---
 
 ### 16_Problem16-AllWordsFromAAAtoZZZ.cpp
-- **Goal:** Generate all 3-letter words from AAA to ZZZ.
-- **Logic:** Triple nested loops over alphabet characters.
-- **Key Skill:** Loops and Strings.
+- **🎯 Goal:** Generate all 3-letter words.
+- **🧠 Logic:** Triple nested loops.
+- **💡 Key Skill:** Strings + Loops.
+
+---
 
 ### 17_Problem17-GuessA3LetterPassword.cpp
-- **Goal:** Implement a 3-letter password guessing game.
-- **Logic:** Compare user input with predefined password until match.
-- **Key Skill:** Conditional logic and Loops.
+- **🎯 Goal:** Guess password.
+- **🧠 Logic:** Loop until match.
+- **💡 Key Skill:** Conditions.
+
+---
 
 ### 18_Problem18-EncryptDecryptText.cpp
-- **Goal:** Encrypt and decrypt a text.
-- **Logic:** Shift characters based on key or pattern.
-- **Key Skill:** Strings and Character manipulation.
+- **🎯 Goal:** Encrypt and decrypt text.
+- **🧠 Logic:** Shift characters.
+- **💡 Key Skill:** Strings.
+
+---
 
 ### 19_Problem19-RandomNumber.cpp
-- **Goal:** Generate random numbers.
-- **Logic:** Use built-in random functions and loops.
-- **Key Skill:** Randomization and Loops.
+- **🎯 Goal:** Generate random numbers.
+- **🧠 Logic:** Use random functions.
+- **💡 Key Skill:** Randomization.
+
+---
 
 ### 20_Problem20-PrintRandomLettersDigitsSpecialCharacters.cpp
-- **Goal:** Print random small letters, capital letters, digits, and special characters in order.
-- **Logic:** Generate random characters by type and print sequentially.
-- **Key Skill:** Randomization, Loops, Strings.
-
-  ## ⭐ Featured Solutions
-
-### 🔑 Problem 21: Generate Many Keys
-- **🎯 Goal:**  
-  Generate multiple formatted random keys (e.g., XXXX-XXXX).
-
-- **🧠 Logic:**  
-  Create random characters and group them into formatted sections separated by symbols like `-`.
-
-- **💡 Key Skill:**  
-  **Randomization + String Formatting**
+- **🎯 Goal:** Print random characters.
+- **🧠 Logic:** Generate by type.
+- **💡 Key Skill:** Random + Strings.
 
 ---
 
-### 🔢 Problem 22: Count Element Occurrences
-- **🎯 Goal:**  
-  Count how many times a specific number appears in an array.
-
-- **🧠 Logic:**  
-  Loop through the array and increment a counter whenever the target number is found.
-
-- **💡 Key Skill:**  
-  **Looping + Counting Patterns**
+### 21_Problem21-GenerateManyKeys.cpp
+- **🎯 Goal:** Generate formatted keys.
+- **🧠 Logic:** Random chars + grouping.
+- **💡 Key Skill:** Formatting.
 
 ---
 
-### 🎲 Problem 23: Fill Array with Random Numbers
-- **🎯 Goal:**  
-  Fill an array with random numbers.
-
-- **🧠 Logic:**  
-  Use a loop with a random number generator to assign values to each element.
-
-- **💡 Key Skill:**  
-  **Arrays + Random Number Generation**
+### 22_Problem22-ReadAndPrintCountElement.cpp
+- **🎯 Goal:** Count element occurrences.
+- **🧠 Logic:** Loop and count matches.
+- **💡 Key Skill:** Counting.
 
 ---
 
-### 🔍 Problem 24: Max Number in Array
-- **🎯 Goal:**  
-  Find the maximum number in an array.
-
-- **🧠 Logic:**  
-  Initialize a variable with the first element, then compare it with all elements to find the largest.
-
-- **💡 Key Skill:**  
-  **Searching + Comparison**
+### 23_Problem23-FillArrayWithRandomNumbers.cpp
+- **🎯 Goal:** Fill array randomly.
+- **🧠 Logic:** Loop + random assign.
+- **💡 Key Skill:** Arrays.
 
 ---
 
-### 🔍 Problem 25: Min Number in Array
-- **🎯 Goal:**  
-  Find the minimum number in an array.
-
-- **🧠 Logic:**  
-  Initialize a variable with the first element, then update it whenever a smaller value is found.
-
-- **💡 Key Skill:**  
-  **Searching + Comparison**
+### 24_Problem24-MaxNumberInArray.cpp
+- **🎯 Goal:** Find max value.
+- **🧠 Logic:** Compare elements.
+- **💡 Key Skill:** Searching.
 
 ---
 
-### ➕ Problem 26: Sum Array
-- **🎯 Goal:**  
-  Calculate the sum of all elements in an array.
-
-- **🧠 Logic:**  
-  Use a loop to accumulate the sum of all elements in a variable.
-
-- **💡 Key Skill:**  
-  **Accumulation + Loops**
+### 25_Problem25-MinNumberInArray.cpp
+- **🎯 Goal:** Find min value.
+- **🧠 Logic:** Compare elements.
+- **💡 Key Skill:** Searching.
 
 ---
 
-### 📊 Problem 27: Average of Array
-- **🎯 Goal:**  
-  Calculate the average of array elements.
-
-- **🧠 Logic:**  
-  Compute the sum of elements, then divide by the total number of elements.
-
-- **💡 Key Skill:**  
-  **Math Operations + Arrays**
+### 26_Problem26-SumArray.cpp
+- **🎯 Goal:** Sum array.
+- **🧠 Logic:** Accumulate values.
+- **💡 Key Skill:** Loops.
 
 ---
 
-### 🔁 Problem 28: Copy Array
-- **🎯 Goal:**  
-  Copy elements from one array to another.
-
-- **🧠 Logic:**  
-  Use a loop to assign each element from the original array to the new array.
-
-- **💡 Key Skill:**  
-  **Arrays + Data Copying**
+### 27_Problem27-AverageArray.cpp
+- **🎯 Goal:** Calculate average.
+- **🧠 Logic:** Sum ÷ count.
+- **💡 Key Skill:** Math.
 
 ---
 
-### 🖨️ Problem 29: Print All Prime Numbers in Array
-- **🎯 Goal:**  
-  Print all prime numbers الموجودة داخل المصفوفة.
-
-- **🧠 Logic:**  
-  فحص كل عنصر باستخدام دالة تتحقق هل العدد أولي ثم طباعته إذا كان كذلك.
-
-- **💡 Key Skill:**  
-  **Prime Checking + Nested Loops**
+### 28_Problem28-CopyArray.cpp
+- **🎯 Goal:** Copy array.
+- **🧠 Logic:** Assign element by element.
+- **💡 Key Skill:** Arrays.
 
 ---
 
-### ➕ Problem 30: Sum Two Arrays
-- **🎯 Goal:**  
-  Sum two arrays element by element.
+### 29_Problem29-PrintPrimeNumbersInArray.cpp
+- **🎯 Goal:** Print primes in array.
+- **🧠 Logic:** Check each element.
+- **💡 Key Skill:** Prime logic.
 
-- **🧠 Logic:**  
-  جمع كل عنصر في المصفوفة الأولى مع نظيره في الثانية وتخزين الناتج في مصفوفة جديدة.
+---
 
-- **💡 Key Skill:**  
-  **Arrays + Element-wise Operations**
-
+### 30_Problem30-SumTwoArrays.cpp
+- **🎯 Goal:** Sum two arrays.
+- **🧠 Logic:** Element-wise addition.
+- **💡 Key Skill:** Arrays.
