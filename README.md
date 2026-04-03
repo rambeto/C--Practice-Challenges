@@ -38,6 +38,16 @@ A structured collection of C++ problems designed to strengthen problem-solving s
 | 28 | [28_Problem28-CopyArray.cpp](./28_Problem28-CopyArray.cpp) | Copy array elements | Arrays |
 | 29 | [29_Problem29-PrintPrimeNumbersInArray.cpp](./29_Problem29-PrintPrimeNumbersInArray.cpp) | Print primes in array | Prime Numbers |
 | 30 | [30_Problem30-SumTwoArrays.cpp](./30_Problem30-SumTwoArrays.cpp) | Sum two arrays | Arrays |
+| 31 | [31_Problem31-ShuffleOrderArray.cpp](./31_Problem31-ShuffleOrderArray.cpp) | Shuffle elements of an array randomly | Randomization, Array Manipulation |
+| 32 | [32_Problem32-CopyArrayInReverseOrder.cpp](./32_Problem32-CopyArrayInReverseOrder.cpp) | Copy array elements in reverse order | Arrays, Reverse Traversal |
+| 33 | [33_Problem33-FillArrayWithKeys.cpp](./33_Problem33-FillArrayWithKeys.cpp) | Fill array using user input (keys) | Input Handling, Arrays |
+| 34 | [34_Problem34-ReturnNumberIndexInArray.cpp](./34_Problem34-ReturnNumberIndexInArray.cpp) | Find index of a number in an array | Searching |
+| 35 | [35_Problem35-CheckNumberInArray.cpp](./35_Problem35-CheckNumberInArray.cpp) | Check if a number exists in array | Linear Search |
+| 36 | [36_Problem36-AddArraySimiDynamic.cpp](./36_Problem36-AddArraySimiDynamic.cpp) | Add elements dynamically to array | Dynamic Arrays |
+| 37 | [37_Problem37-CopyArrayUsingAddElementArray.cpp](./37_Problem37-CopyArrayUsingAddElementArray.cpp) | Copy array using add element method | Array Expansion |
+| 38 | [38_Problem38-CopyOddNumbersUsingAddArrayElement.cpp](./38_Problem38-CopyOddNumbersUsingAddArrayElement.cpp) | Copy only odd numbers to another array | Filtering |
+| 39 | [39_Problem39-CopyArrayPrimNumbers.cpp](./39_Problem39-CopyArrayPrimNumbers.cpp) | Copy prime numbers to another array | Prime Numbers |
+| 40 | [40_Problem40-CopyDistinctToArray.cpp](./40_Problem40-CopyDistinctToArray.cpp) | Copy distinct elements to a new array | Uniqueness |
 
 ### 01_Problem1-MultiplicationTable.cpp
 - **🎯 Goal:** Generate multiplication tables for user input numbers.
@@ -246,3 +256,73 @@ A structured collection of C++ problems designed to strengthen problem-solving s
 - **🎯 Goal:** Sum two arrays.
 - **🧠 Logic:** Element-wise addition.
 - **💡 Key Skill:** Arrays.
+
+---
+
+### 31_Problem31-ShuffleOrderArray.cpp
+- **🎯 Goal:** Shuffle array elements randomly.  
+- **🧠 Logic:** Swap elements using random indices.  
+- **💡 Key Skill:** Randomization.  
+
+---
+
+### 32_Problem32-CopyArrayInReverseOrder.cpp
+- **🎯 Goal:** Copy array in reverse order.  
+- **🧠 Logic:** Traverse from end to start.  
+- **💡 Key Skill:** Reverse traversal.  
+
+---
+
+### 33_Problem33-FillArrayWithKeys.cpp
+- **🎯 Goal:** Fill array with user input.  
+- **🧠 Logic:** Use loop with input for each element.  
+- **💡 Key Skill:** Input handling.  
+
+---
+
+### 34_Problem34-ReturnNumberIndexInArray.cpp
+- **🎯 Goal:** Find index of a number.  
+- **🧠 Logic:** Linear search through array.  
+- **💡 Key Skill:** Searching.  
+
+---
+
+### 35_Problem35-CheckNumberInArray.cpp
+- **🎯 Goal:** Check if a number exists in array.  
+- **🧠 Logic:** Return true when found.  
+- **💡 Key Skill:** Boolean logic.  
+
+---
+
+### 36_Problem36-AddArraySimiDynamic.cpp
+- **🎯 Goal:** Add elements dynamically to array.  
+- **🧠 Logic:** Track size and append elements.  
+- **💡 Key Skill:** Dynamic array simulation.  
+
+---
+
+### 37_Problem37-CopyArrayUsingAddElementArray.cpp
+- **🎯 Goal:** Copy array using add element function.  
+- **🧠 Logic:** Insert each element using helper function.  
+- **💡 Key Skill:** Functions with arrays.  
+
+---
+
+### 38_Problem38-CopyOddNumbersUsingAddArrayElement.cpp
+- **🎯 Goal:** Copy only odd numbers.  
+- **🧠 Logic:** Check `% 2 != 0` before adding.  
+- **💡 Key Skill:** Filtering.  
+
+---
+
+### 39_Problem39-CopyArrayPrimNumbers.cpp
+- **🎯 Goal:** Copy prime numbers from array.  
+- **🧠 Logic:** Check prime condition before adding.  
+- **💡 Key Skill:** Prime logic.  
+
+---
+
+### 40_Problem40-CopyDistinctToArray.cpp
+- **🎯 Goal:** Copy distinct elements only.  
+- **🧠 Logic:** Check existence before insertion.  
+- **💡 Key Skill:** Duplicate handling.  
