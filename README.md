@@ -48,16 +48,16 @@ A structured collection of C++ problems designed to strengthen problem-solving s
 | 38 | [38_Problem38-CopyOddNumbersUsingAddArrayElement.cpp](./38_Problem38-CopyOddNumbersUsingAddArrayElement.cpp) | Copy only odd numbers to another array | Filtering |
 | 39 | [39_Problem39-CopyArrayPrimNumbers.cpp](./39_Problem39-CopyArrayPrimNumbers.cpp) | Copy prime numbers to another array | Prime Numbers |
 | 40 | [40_Problem40-CopyDistinctToArray.cpp](./40_Problem40-CopyDistinctToArray.cpp) | Copy distinct elements to a new array | Uniqueness |
-| 41 | [Problem41-isPalindromeArray.cpp](./Problem41-isPalindromeArray.cpp) | Check if array is palindrome | Two Pointers |
-| 42 | [Problem42-CountOddNumberInArray.cpp](./Problem42-CountOddNumberInArray.cpp) | Count odd numbers in array | Conditions |
-| 43 | [Problem43-CountEvenNumberInArray.cpp](./Problem43-CountEvenNumberInArray.cpp) | Count even numbers in array | Conditions |
-| 44 | [Problem44-CountPositiveNumberInArray.cpp](./Problem44-CountPositiveNumberInArray.cpp) | Count positive numbers | Conditions |
-| 45 | [Problem45-CountNegativeNumberInArray.cpp](./Problem45-CountNegativeNumberInArray.cpp) | Count negative numbers | Conditions |
-| 46 | [Problem46-MyABS.cpp](./Problem46-MyABS.cpp) | Implement absolute value function | Math Logic |
-| 47 | [Problem47-MyRound.cpp](./Problem47-MyRound.cpp) | Implement round function | Math Logic |
-| 48 | [Problem48-MyFloor.cpp](./Problem48-MyFloor.cpp) | Implement floor function | Math Logic |
-| 49 | [Problem49-MyCeil.cpp](./Problem49-MyCeil.cpp) | Implement ceil function | Math Logic |
-| 50 | [Problem50-MySqrt.cpp](./Problem50-MySqrt.cpp) | Implement square root function | Math Algorithm |
+| 41 | [41_Problem41-isPalindromeArray.cpp](./Problem41-isPalindromeArray.cpp) | Check if array is palindrome | Two Pointers |
+| 42 | [42_Problem42-CountOddNumberInArray.cpp](./Problem42-CountOddNumberInArray.cpp) | Count odd numbers in array | Conditions |
+| 43 | [43_Problem43-CountEvenNumberInArray.cpp](./Problem43-CountEvenNumberInArray.cpp) | Count even numbers in array | Conditions |
+| 44 | [44_Problem44-CountPositiveNumberInArray.cpp](./Problem44-CountPositiveNumberInArray.cpp) | Count positive numbers | Conditions |
+| 45 | [45_Problem45-CountNegativeNumberInArray.cpp](./Problem45-CountNegativeNumberInArray.cpp) | Count negative numbers | Conditions |
+| 46 | [46_Problem46-MyABS.cpp](./Problem46-MyABS.cpp) | Implement absolute value function | Math Logic |
+| 47 | [47_Problem47-MyRound.cpp](./Problem47-MyRound.cpp) | Implement round function | Math Logic |
+| 48 | [48_Problem48-MyFloor.cpp](./Problem48-MyFloor.cpp) | Implement floor function | Math Logic |
+| 49 | [49_Problem49-MyCeil.cpp](./Problem49-MyCeil.cpp) | Implement ceil function | Math Logic |
+| 50 | [50_Problem50-MySqrt.cpp](./Problem50-MySqrt.cpp) | Implement square root function | Math Algorithm |
 
 ### 01_Problem1-MultiplicationTable.cpp
 - **🎯 Goal:** Generate multiplication tables for user input numbers.
