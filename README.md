@@ -335,4 +335,84 @@ A structured collection of C++ problems designed to strengthen problem-solving s
 ### 40_Problem40-CopyDistinctToArray.cpp
 - **🎯 Goal:** Copy distinct elements only.  
 - **🧠 Logic:** Check existence before insertion.  
-- **💡 Key Skill:** Duplicate handling.  
+- **💡 Key Skill:** Duplicate handling.
+
+---
+
+## 🔹 Problem 41 - isPalindromeArray
+
+- **🎯 Goal:** Check if the array reads the same forward and backward.  
+- **🧠 Logic:** Compare first element with last, second with second last, and so on.  
+- **💡 Key Skill:** Two pointers technique.  
+
+---
+
+## 🔹 Problem 42 - CountOddNumberInArray
+
+- **🎯 Goal:** Count all odd numbers in the array.  
+- **🧠 Logic:** Loop through array and check `number % 2 != 0`.  
+- **💡 Key Skill:** Conditional filtering.  
+
+---
+
+## 🔹 Problem 43 - CountEvenNumberInArray
+
+- **🎯 Goal:** Count all even numbers in the array.  
+- **🧠 Logic:** Loop through array and check `number % 2 == 0`.  
+- **💡 Key Skill:** Conditional filtering.  
+
+---
+
+## 🔹 Problem 44 - CountPositiveNumberInArray
+
+- **🎯 Goal:** Count all positive numbers.  
+- **🧠 Logic:** Check if `number > 0`.  
+- **💡 Key Skill:** Condition-based counting.  
+
+---
+
+## 🔹 Problem 45 - CountNegativeNumberInArray
+
+- **🎯 Goal:** Count all negative numbers.  
+- **🧠 Logic:** Check if `number < 0`.  
+- **💡 Key Skill:** Condition-based counting.  
+
+---
+
+## 🔹 Problem 46 - MyABS
+
+- **🎯 Goal:** Implement absolute value function manually.  
+- **🧠 Logic:** If number is negative, return `-number`, otherwise return number.  
+- **💡 Key Skill:** Basic math logic.  
+
+---
+
+## 🔹 Problem 47 - MyRound
+
+- **🎯 Goal:** Implement round function manually.  
+- **🧠 Logic:** If decimal part ≥ 0.5 → increase integer part.  
+- **💡 Key Skill:** Floating-point handling.  
+
+---
+
+## 🔹 Problem 48 - MyFloor
+
+- **🎯 Goal:** Implement floor function manually.  
+- **🧠 Logic:** Return the largest integer less than or equal to the number.  
+- **💡 Key Skill:** Number truncation logic.  
+
+---
+
+## 🔹 Problem 49 - MyCeil
+
+- **🎯 Goal:** Implement ceil function manually.  
+- **🧠 Logic:** Return the smallest integer greater than or equal to the number.  
+- **💡 Key Skill:** Rounding up logic.  
+
+---
+
+## 🔹 Problem 50 - MySqrt
+
+- **🎯 Goal:** Implement square root function manually.  
+- **🧠 Logic:** Use iterative approach (e.g., binary search or approximation).  
+- **💡 Key Skill:** Mathematical algorithms.  
